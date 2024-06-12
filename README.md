@@ -38,6 +38,8 @@ This repository contains the code and resources for a project focused on generat
    PaperTitle.ipynb: Notebook for training the model and generating titles.
 
 The performance evaluation of the four models on the test set reveals the following: The Original Model has a high loss (1.263) and long generation time but decent ROUGE scores. The Fine-tuned Model after 1 epoch has the lowest loss (1.031), good ROUGE scores, and the fastest evaluation speed, making it the most efficient. Fine-tuned Model after 2 epochs shows the highest ROUGE scores but has a higher loss (1.114) and slower evaluation speed. Fine-tuned Model after 5 epochs has the highest loss (1.748) and the lowest ROUGE-2 score, indicating lower performance overall. In summary, the Fine-tuned Model after 2 epochs balances low loss, good ROUGE scores, and fast evaluation, making it the best among the four.
+![Model Evaluation Chart](evaluation.png "Model Evaluation Chart")
+
 
 ### Acknowledgments
 
