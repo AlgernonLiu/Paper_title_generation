@@ -40,11 +40,13 @@ This repository contains the code and resources for a project focused on generat
 The performance evaluation of the four models on the test set reveals the following: The Original Model has a high loss (1.263) and long generation time but decent ROUGE scores. The Fine-tuned Model after 1 epoch has the lowest loss (1.031), good ROUGE scores, and the fastest evaluation speed, making it the most efficient. Fine-tuned Model after 2 epochs shows the highest ROUGE scores but has a higher loss (1.114) and slower evaluation speed. Fine-tuned Model after 5 epochs has the highest loss (1.748) and the lowest ROUGE-2 score, indicating lower performance overall. In summary, the Fine-tuned Model after 2 epochs balances low loss, good ROUGE scores, and fast evaluation, making it the best among the four.
 
 
-Model	eval_loss	eval_rouge1	eval_rouge2	eval_rougeL	eval_rougeLsum	eval_gen_len	eval_runtime	eval_samples_per_second	eval_steps_per_second
-Original Model	1.263	7.5571	1.1767	7.5714	7.6779	15.773	431.7017	2.316	0.049
-Fine-tuned Model	1.031	7.4925	0.7	7.4099	7.4257	14.044	325.5001	3.072	0.065
-Fine-tuned Model2	1.114	7.8213	0.69	7.7348	7.8231	13.999	432.3147	2.313	0.049
-Fine-tuned Model5	1.748	7.223	0.5014	7.1389	7.2078	14.389	375.9517	2.66	0.056
+| Model               | eval_loss | eval_rouge1 | eval_rouge2 | eval_rougeL | eval_rougeLsum | eval_gen_len | eval_runtime | eval_samples_per_second | eval_steps_per_second |
+|---------------------|-----------|-------------|-------------|-------------|----------------|--------------|--------------|------------------------|-----------------------|
+| Original Model      | 1.263     | 7.5571      | 1.1767      | 7.5714      | 7.6779         | 15.773       | 431.7017     | 2.316                  | 0.049                 |
+| Fine-tuned Model Epoch1    | 1.031     | 7.4925      | 0.7         | 7.4099      | 7.4257         | 14.044       | 325.5001     | 3.072                  | 0.065                 |
+| Fine-tuned Model Epoch2   | 1.114     | 7.8213      | 0.69        | 7.7348      | 7.8231         | 13.999       | 432.3147     | 2.313                  | 0.049                 |
+| Fine-tuned Model Epoch5   | 1.748     | 7.223       | 0.5014      | 7.1389      | 7.2078         | 14.389       | 375.9517     | 2.66                   | 0.056                 |
+
 
 
 ![Model Evaluation Chart](evaluation.png "Model Evaluation Chart")
