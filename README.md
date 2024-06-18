@@ -40,7 +40,7 @@ This repository contains the code and resources for a project focused on generat
 The performance evaluation of the four models on the test set reveals the following: The Original Model has a high loss (1.263) and long generation time but decent ROUGE scores. The Fine-tuned Model after 1 epoch has the lowest loss (1.031), good ROUGE scores, and the fastest evaluation speed, making it the most efficient. Fine-tuned Model after 2 epochs shows the highest ROUGE scores but has a higher loss (1.114) and slower evaluation speed. Fine-tuned Model after 5 epochs has the highest loss (1.748) and the lowest ROUGE-2 score, indicating lower performance overall. In summary, the Fine-tuned Model after 2 epochs balances low loss, good ROUGE scores, and fast evaluation, making it the best among the four.
 
 
-| Model               | Eval loss | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum | Generated length | Runtime | Samples per second | Steps per second |
+| Model               | Loss | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum | Generated length | Runtime | Samples per second | Steps per second |
 |---------------------|-----------|-------------|-------------|-------------|----------------|--------------|--------------|------------------------|-----------------------|
 | Original Model      | 1.263     | 7.5571      | 1.1767      | 7.5714      | 7.6779         | 15.773       | 431.7017     | 2.316                  | 0.049                 |
 | Fine-tuned Model after 1 Epoch    | 1.031     | 7.4925      | 0.7         | 7.4099      | 7.4257         | 14.044       | 325.5001     | 3.072                  | 0.065                 |
@@ -49,7 +49,7 @@ The performance evaluation of the four models on the test set reveals the follow
 
 
 
-![Model Evaluation Chart](evaluation_raw.png "Model Evaluation Chart")
+![Model Test Chart](evaluation.png "Model Test Chart")
 
 
 ### Acknowledgments
