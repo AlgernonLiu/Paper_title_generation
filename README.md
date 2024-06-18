@@ -49,7 +49,7 @@ The performance evaluation of the four models on the test set reveals the follow
 
 
 
-![Model Evaluation Chart](evaluation.png "Model Evaluation Chart")
+![Model Evaluation Chart](evaluation_raw.png "Model Evaluation Chart")
 
 
 ### Acknowledgments
