@@ -43,9 +43,9 @@ The performance evaluation of the four models on the test set reveals the follow
 | Model               | Eval loss | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum | Generated length | Runtime | Samples per second | Steps per second |
 |---------------------|-----------|-------------|-------------|-------------|----------------|--------------|--------------|------------------------|-----------------------|
 | Original Model      | 1.263     | 7.5571      | 1.1767      | 7.5714      | 7.6779         | 15.773       | 431.7017     | 2.316                  | 0.049                 |
-| Fine-tuned Model Epoch1    | 1.031     | 7.4925      | 0.7         | 7.4099      | 7.4257         | 14.044       | 325.5001     | 3.072                  | 0.065                 |
-| Fine-tuned Model Epoch2   | 1.114     | 7.8213      | 0.69        | 7.7348      | 7.8231         | 13.999       | 432.3147     | 2.313                  | 0.049                 |
-| Fine-tuned Model Epoch5   | 1.748     | 7.223       | 0.5014      | 7.1389      | 7.2078         | 14.389       | 375.9517     | 2.66                   | 0.056                 |
+| Fine-tuned Model after 1 Epoch    | 1.031     | 7.4925      | 0.7         | 7.4099      | 7.4257         | 14.044       | 325.5001     | 3.072                  | 0.065                 |
+| Fine-tuned Model after 2 Epochs   | 1.114     | 7.8213      | 0.69        | 7.7348      | 7.8231         | 13.999       | 432.3147     | 2.313                  | 0.049                 |
+| Fine-tuned Model after 5 Epochs   | 1.748     | 7.223       | 0.5014      | 7.1389      | 7.2078         | 14.389       | 375.9517     | 2.66                   | 0.056                 |
 
 
 
