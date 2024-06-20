@@ -17,7 +17,7 @@ EM is an iterative algorithm that aims to maximize the likelihood of the observe
 
 VB is a Bayesian approach that iteratively maximizes a lower bound on the model evidence. It provides a probabilistic framework to estimate the parameters and number of components in a GMM.
 
-### Lower Bounds by \( K \):
+### Lower Bounds by K:
 
 - **K = 2**: [-6.304, -6.304, -6.304, -6.304]
 - **K = 3**: [-6.000, -5.964, -5.964, -5.963, -5.963]
@@ -42,15 +42,4 @@ This file records the parameters learned by the algorithms after convergence, re
 
 This file contains the posterior probabilities (also known as responsibility matrix) \( \gamma \), which assigns each data point to each component of the mixture model. Each row corresponds to a data point, and each column corresponds to a component.
 
----
 
-### Usage
-
-To reproduce these results:
-
-1. Ensure Python and necessary libraries (numpy, pandas, matplotlib, scikit-learn) are installed.
-2. Clone this repository and navigate to the directory.
-3. Place your dataset in `x.csv` format.
-4. Run the main script or respective modules for EM and VB algorithms.
-
-Adjust paths and details as per your actual implementation and dataset.
