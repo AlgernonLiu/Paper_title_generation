@@ -2,14 +2,14 @@
 
 EM is an iterative algorithm that aims to maximize the likelihood of the observed data under a GMM. It iteratively estimates the parameters of the mixture model and updates the log likelihood until convergence.
 
-### Log Likelihoods by \( K \):
+### Log Likelihoods by K:
 
 - **K = 2**: [-6869.86, -6828.08, -6776.21, ...]
 - **K = 3**: [-10432.65, -10052.02, -9818.82, ...]
 - **K = 4**: [-13788.56, -13700.87, -13310.89, ...]
 - **K = 5**: [-15183.85, -14983.13, -14500.11, ...]
 
-**Optimal \( K \) for EM**: \( K = 2 \)
+**Optimal K for EM**: \( K = 2 \)
 
 **Reason**: The log likelihoods indicate that \( K = 2 \) achieves the highest likelihood without overfitting the data. It strikes a balance between model complexity and goodness-of-fit.
 
@@ -19,12 +19,12 @@ VB is a Bayesian approach that iteratively maximizes a lower bound on the model 
 
 ### Lower Bounds by \( K \):
 
-- **K = 2**: [-6.30, -6.30, -6.30, -6.30]
-- **K = 3**: [-6.00, -5.96, -5.96, -5.96, -5.96]
-- **K = 4**: [-5.67, -5.67, -5.67, -5.67]
-- **K = 5**: [-5.67, -5.67, -5.67, -5.67, ...]
+- **K = 2**: [-6.304, -6.304, -6.304, -6.304]
+- **K = 3**: [-6.000, -5.964, -5.964, -5.963, -5.963]
+- **K = 4**: [-5.666, -5.665, -5.665, -5.665]
+- **K = 5**: [-5.672, -5.666, -5.666, -5.666, ...]
 
-**Optimal \( K \) for VB**: \( K = 3 \)
+**Optimal K for VB**:K = 4
 
 **Reason**: The lower bounds indicate that \( K = 3 \) provides the best balance between model complexity and evidence lower bound. It suggests that this configuration is most likely given the data.
 
