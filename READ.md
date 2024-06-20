@@ -9,9 +9,9 @@ EM is an iterative algorithm that aims to maximize the likelihood of the observe
 - **K = 4**: [-13788.56, -13700.87, -13310.89, ...]
 - **K = 5**: [-15183.85, -14983.13, -14500.11, ...]
 
-**Optimal K for EM**: \( K = 2 \)
+**Optimal K for EM**: K = 2
 
-**Reason**: The log likelihoods indicate that \( K = 2 \) achieves the highest likelihood without overfitting the data. It strikes a balance between model complexity and goodness-of-fit.
+**Reason**: The log likelihoods indicate that K = 2 achieves the highest likelihood without overfitting the data. It strikes a balance between model complexity and goodness-of-fit.
 
 ## Variational Bayesian (VB) Results
 
@@ -24,9 +24,9 @@ VB is a Bayesian approach that iteratively maximizes a lower bound on the model 
 - **K = 4**: [-5.666, -5.665, -5.665, -5.665]
 - **K = 5**: [-5.672, -5.666, -5.666, -5.666, ...]
 
-**Optimal K for VB**:K = 4
+**Optimal K for VB**: K = 4
 
-**Reason**: The lower bounds indicate that \( K = 3 \) provides the best balance between model complexity and evidence lower bound. It suggests that this configuration is most likely given the data.
+**Reason**: The lower bounds indicate that K = 4 provides the best balance between model complexity and evidence lower bound. It suggests that this configuration is most likely given the data.
 
 ## Output Files Explanation
 
